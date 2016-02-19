@@ -1,0 +1,1 @@
+banner.jpg is in this area only because it's preventing a weird JS theme error.
