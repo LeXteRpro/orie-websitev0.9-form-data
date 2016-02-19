@@ -1,5 +1,18 @@
 "use strict";
 
+//Scroll Down to Portfolio section 
+$("#portfolio-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#portfolio-doc").offset().top
+    }, 500);
+});
+
+//Scroll Down to Contact section 
+$("#contact-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#cta").offset().top
+    }, 500);
+});
 
   // Anonymous function with named alias
 (function(){
